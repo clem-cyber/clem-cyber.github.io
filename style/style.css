@@ -1,11 +1,14 @@
 /*Feuille de style pour la mise en forme des éléments*/
 
-
-/*Polices*/
 @font-face 
 {
     font-family: 'Taken';
     src: url('../polices/Takenbyvultures.otf');
+}
+@font-face 
+{
+    font-family: 'retro';
+    src: url('../polices/upheavtt.ttf');
 }
 @font-face 
 {
@@ -23,6 +26,7 @@
     font-family: 'Quicksand_Bold';
     src: url('../polices/Quicksand_Bold.otf');
 }
+
 
 /*Media Queries*/
 @media all and (max-width: 1024px) /*Pour les téléphones et petits écrans*/
@@ -58,11 +62,7 @@
     	padding: 0;
     	width: 100%;
     }
-    #section_etab iframe
-    {
-    	align-self: center;
-    }
-    #section_etab ul
+    #section_etab iframe, #section_etab ul
     {
     	width: 65%;
     	margin: auto;
@@ -99,19 +99,16 @@
 	}
 }
 
-/*Toute la page*/
-h1
-{
-	font-family: 'Taken';
-}
+
 h2, h3
 {
-	font-family: 'Quicksand_Bold';
+	font-family: Quicksand_Bold;
 }
 section
 {
-	font-family: 'Quicksand_Book';
+	font-family: Quicksand_Book;
 }
+/*Haut de page*/
 html, body
 {
 	width: 100%;
@@ -119,8 +116,6 @@ html, body
 	padding: 0;
 	margin: 0;
 }
-
-/*Haut de page*/
 header
 {
 	display: flex;
@@ -147,13 +142,13 @@ header nav ul li
 {
 	list-style : none;
 	margin-left : 5rem;
+	font-family: Quicksand_Book;
 }
 header nav ul li a
 {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding-bottom: 0.5rem;
-	font-family: 'Quicksand_Book'
 }
 header h1 a
 {
@@ -161,6 +156,7 @@ header h1 a
 	text-decoration: none;
 	width: 5%;
 	margin: auto;
+	font-family: Taken;
 }
 
 
@@ -169,6 +165,7 @@ header h1 a
 {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: column;
 	margin-top: 9.375rem;
 }
 #section_auteur, #section_projets
@@ -177,15 +174,15 @@ header h1 a
 	flex-direction: column;
 	margin-top: 9.375rem;
 }
-#presentation article, #section_projets article, #section_auteur article
-{
-	width: 100%;
-	margin: auto;
-}
 #presentation article
 {
 	display: flex;
 	flex-direction: row;
+}
+#presentation article, #section_projets article, #section_auteur article
+{
+	width: 100%;
+	margin: auto;
 }
 #presentation img
 {
@@ -256,6 +253,7 @@ footer h1 a
 {
 	text-transform: uppercase;
 	text-decoration: none;
+	font-family: Taken;
 }
 footer aside ul li a
 {
@@ -273,25 +271,26 @@ footer aside ul li a:hover
 {
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
 	width: 100%;
 	margin-top : 9.5rem;
 	padding-top: 3rem;
 	background-color: #f0f0f0;
 }
-#section_etab ul
-{
-	margin-right: 5rem;
-}
 #section_etab h2
 {
 	align-self: center;
+}
+#section_etab ul
+{
+	margin-right: 5rem;
 }
 #section_etab li
 {
 	list-style: none;
 	margin-bottom: 3rem;
 }
-#section_etab div
+#section_etab article
 {
 	display: flex;
 	flex-direction: row;
