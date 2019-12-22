@@ -62,6 +62,11 @@
     	padding: 0;
     	width: 100%;
     }
+    #section_etab div
+    {
+    	display: flex;
+    	flex-direction: row;
+    }
     #section_etab iframe, #section_etab ul
     {
     	width: 65%;
