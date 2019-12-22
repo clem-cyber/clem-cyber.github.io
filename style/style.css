@@ -273,10 +273,20 @@ footer aside ul li a:hover
 {
 	margin-right: 5rem;
 }
+#section_etab h2
+{
+	align-self: center;
+}
 #section_etab li
 {
 	list-style: none;
 	margin-bottom: 3rem;
+}
+#section_etab article
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 #formulaire
 {
