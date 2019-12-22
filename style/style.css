@@ -1,6 +1,29 @@
 /*Feuille de style pour la mise en forme des éléments*/
 
 
+/*Polices*/
+@font-face 
+{
+    font-family: 'Taken';
+    src: url('../polices/Takenbyvultures.otf');
+}
+@font-face 
+{
+    font-family: 'retro_computer';
+    src: url('../polices/retro_computer.ttf');
+}
+
+@font-face 
+{
+    font-family: 'Quicksand_Book';
+    src: url('../polices/Quicksand_Book.otf');
+}
+@font-face 
+{
+    font-family: 'Quicksand_Bold';
+    src: url('../polices/Quicksand_Bold.otf');
+}
+
 /*Media Queries*/
 @media all and (max-width: 1024px) /*Pour les téléphones et petits écrans*/
 {
@@ -73,8 +96,14 @@
 }
 
 
-
-/*Haut de page*/
+h2, h3
+{
+	font-family: Quicksand_Bold;
+}
+section
+{
+	font-family: Quicksand_Book;
+}
 html, body
 {
 	width: 100%;
@@ -82,6 +111,8 @@ html, body
 	padding: 0;
 	margin: 0;
 }
+
+/*Haut de page*/
 header
 {
 	display: flex;
@@ -269,7 +300,8 @@ footer aside ul li a:hover
 	width: 3rem;
 	height: 3rem;
 	text-decoration: none;
-	color: #759B22; 
+	color: #759B22;
+	font-family: Quicksand_Book;
 }
 	
 #SombreButton:hover
@@ -286,6 +318,7 @@ footer aside ul li a:hover
 	height: 3rem;
 	text-decoration: none;
 	color: #759B22;
+	font-family: Quicksand_Book;
 }
 #ClairButton:hover
 {
