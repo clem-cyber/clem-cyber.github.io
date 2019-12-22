@@ -95,7 +95,10 @@
 	}
 }
 
-
+h1
+{
+	font-family: 'Taken';
+}
 h2, h3
 {
 	font-family: 'Quicksand_Bold';
