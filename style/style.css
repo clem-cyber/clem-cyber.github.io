@@ -58,7 +58,11 @@
     	padding: 0;
     	width: 100%;
     }
-    #section_etab iframe, #section_etab ul
+    #section_etab iframe
+    {
+    	align-self: center;
+    }
+    #section_etab ul
     {
     	width: 65%;
     	margin: auto;
@@ -282,7 +286,7 @@ footer aside ul li a:hover
 	list-style: none;
 	margin-bottom: 3rem;
 }
-#section_etab article
+#section_etab div
 {
 	display: flex;
 	flex-direction: row;
