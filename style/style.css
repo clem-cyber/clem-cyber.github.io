@@ -179,7 +179,7 @@ header h1 a
 	display: flex;
 	flex-direction: row;
 }
-#presentation article, #section_projets article, #section_auteur article
+#section_projets article, #section_auteur article
 {
 	width: 100%;
 	margin: auto;
