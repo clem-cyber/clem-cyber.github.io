@@ -1,0 +1,102 @@
+/*Feuille de style pour la couleur et la mise en place du thème*/
+
+/*Haut de page*/
+header
+{
+	border-bottom: 2rem solid grey;
+	background-color: white;
+}
+header nav ul li a
+{
+	color: black;
+}
+header nav ul li a:hover
+{
+	border-bottom: 0.2rem solid grey;
+}
+header h1 a
+{
+	color: black;
+}
+header h1 a:hover
+{
+	color: grey;
+}
+
+
+
+/*Corps de page*/
+
+body
+{
+	background-color: white;
+}
+#presentation
+{
+	background-color: #f0f0f0;
+	border-left: 12rem solid #f0f0f0;
+	border-right: 13rem solid #f0f0f0;
+	border-top: 2rem solid #f0f0f0;
+	border-bottom: 5rem solid #f0f0f0;
+}
+
+#detail, .voir
+{
+	border: 0.125rem solid;
+	border-radius: 2.1875rem;
+}
+#detail:hover, .voir:hover
+{
+	background-color: grey;
+	color: white;
+}
+
+#section_projets, #section_auteur, #merci
+{
+	background-color: #f0f0f0;
+	border-left: 12rem solid #f0f0f0;
+	border-right: 13rem solid #f0f0f0;
+	border-top: 1rem solid #f0f0f0;
+	border-bottom: 2rem solid #f0f0f0;
+}
+section p a
+{
+	color: #759B22;
+	text-decoration: none;
+}
+section p a:hover
+{
+	color: #49660B;
+}
+
+/*Pied de page*/
+
+footer
+{
+	background-color: grey;
+	color: white;
+}
+footer nav ul li a
+{
+	color: white;
+}
+footer nav ul li a:hover
+{
+	color: black;
+}
+footer h1 a
+{
+	color: white;
+}
+footer h1 a:hover
+{
+	color: black;
+}
+footer aside ul li a
+{
+	color: white;
+}
+footer aside ul li a:hover
+{
+	color: blue;
+}

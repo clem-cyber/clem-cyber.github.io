@@ -1,0 +1,96 @@
+/*Deuxième feuille de style pour la mise en forme d'un second thème à proposer à l'utilisateur principalement plus sombre*/
+
+/*Haut de page*/
+header
+{
+	border-bottom: 2rem solid grey;
+	background-color: black;
+}
+header nav ul li a
+{
+	color: white;
+}
+header nav ul li a:hover
+{
+	border-bottom: 0.2rem solid grey;
+}
+header h1 a
+{
+	color: white;
+}
+header h1 a:hover
+{
+	color: grey;
+}
+
+
+
+/*Corps de page*/
+
+body
+{
+	background-color: black;
+}
+p, h1, h2, h3, nav, ul, form
+{
+	color: white;
+}
+#section_etab ul
+{
+	color: black;
+}
+#actu
+{
+	border: 1px white solid;
+}
+#presentation
+{
+	background-color: black;
+	border-left: 17.5rem solid black;
+	border-right: 18rem solid black;
+	border-top: 2rem solid black;
+	border-bottom: 5rem solid black;
+}
+.voir
+{
+	border: 0.125rem solid;
+	border-radius: 2.1875rem;
+}
+.voir:hover
+{
+	background-color: grey;
+	color: black;
+}
+
+
+/*Pied de page*/
+
+footer
+{
+	background-color: grey;
+	color: black;
+}
+footer nav ul li a
+{
+	color: black;
+}
+footer nav ul li a:hover
+{
+	color: white;
+}
+footer h1 a
+{
+	color: black;
+}
+footer h1 a:hover
+{
+	color: white;
+}
+footer aside ul li a
+{
+	color: black;
+}
+footer aside ul li a:hover
+{
+	color: blue;
+}

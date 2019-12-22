@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="keywords" content="formulaire, note, avis">
+	<meta name="description" content="partage de l'avis de l'utilisateur">
+	<link rel="stylesheet" type="text/css" media="screen" href="../style/style.css"/>
+	<link rel="stylesheet" type="text/css" media="screen" title="clair" href="../style/theme_clair.css"/>
+	<link rel="alternate stylesheet" type="text/css" media="screen" title="sombre" href="../style/theme_sombre.css" />
+	<script src="../javascript/styleswitcher.js"></script>
+	<link rel="icon" href="../images/favicon.ico"/>
+	<title>Clément Delfino - Votre Avis</title>
+</head>
+<body>
+	<header>
+		<h1><a href="../index.html">Clément Delfino</a></h1>
+		<nav>
+			<ul>
+				<li><a href="../index.html">Accueil</a></li>
+				<li><a href="projets.html">Projets</a></li>
+				<li><a href="etablissement.html">Établissement</a></li>
+				<li><a href="a_propos.html">Auteur</a></li>
+				<li><a href="avis.html">Avis</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="formulaire">
+		<h2>Partagez-moi votre avis !</h2>
+		<form method="post" action="remerciements.html">
+		    <fieldset>
+		       <legend>Vos coordonnées</legend>
+		       <label for="nom">Quel est votre nom ?</label>
+		       <input type="text" name="nom" id="nom" />
+		       <label for="prenom">Quel est votre prénom ?</label>
+		       <input type="text" name="prenom" id="prenom" />
+		    </fieldset>
+		    <fieldset>
+		       <legend>Votre avis</legend>
+		       <p>
+		           Quelle note metteriez-vous au présent site Internet : 
+		           <input type="radio" name="note" value="5" id="5" /> <label for="5">5</label>
+		           <input type="radio" name="note" value="4" id="4" /> <label for="4">4</label>
+		           <input type="radio" name="note" value="3" id="3" /> <label for="3">3</label>
+		           <input type="radio" name="note" value="2" id="2" /> <label for="2">2</label>
+		           <input type="radio" name="note" value="1" id="1" /> <label for="1">1</label>
+		       </p>
+		       <p>
+		           <label for="avis">Vos avis ou vos conseils sont la bienvenue : <br /></label>
+		           <textarea name="avis" id="avis" cols="80" rows="8"></textarea><br />
+		           <input type="submit" name="send" value="Envoyer" />
+		       </p>
+		    </fieldset>
+		</form>
+		<p>Vous pouvez également me contacter directement<a href="mailto:clement.delfino@gmail.com"> par mail</a></p>
+	</section>
+	
+	<nav>
+		<a href="#" title="Haut de page"><img src="../images/fleche_haut.png" alt="fleche retour haut de page"></a>
+		<a href="#" onclick="setActiveStyleSheet('clair'); return false;" id="ClairButton">Thème Clair</a>
+		<a href="#" onclick="setActiveStyleSheet('sombre'); return false;" id="SombreButton">Thème Sombre</a>
+	</nav>
+
+	<footer class="footer_fixed" id="footer_mobile">
+		<h1><a href="../index.html">Clément Delfino</a></h1>
+		<nav>
+			<h4>Explorer</h4>
+			<ul>
+				<li><a href="../index.html">Accueil</a></li>
+				<li><a href="projets.html">Projets</a></li>
+				<li><a href="etablissement.html">Établissement</a></li>
+				<li><a href="a_propos.html">Auteur</a></li>
+				<li><a href="avis.html">Avis</a></li>
+			</ul>
+		</nav>
+		<aside>
+			<h4>Me contacter</h4>
+			<ul>
+				<li>Adresse mail : <a href="mailto:clement.delfino@gmail.com">clement.delfino@gmail.com</a></li>
+				<li>Adresse postale : 83143 Le Val</li>
+			</ul>
+		</aside>
+	</footer>
+</body>
+</html>
