@@ -290,7 +290,7 @@ footer aside ul li a:hover
 	list-style: none;
 	margin-bottom: 3rem;
 }
-#section_etab article
+#section_etab div
 {
 	display: flex;
 	flex-direction: row;
