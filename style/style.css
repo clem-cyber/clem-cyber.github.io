@@ -65,7 +65,7 @@
     #section_etab div
     {
     	display: flex;
-    	flex-direction: row;
+    	flex-direction: column;
     }
     #section_etab iframe, #section_etab ul
     {
