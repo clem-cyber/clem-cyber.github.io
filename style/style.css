@@ -174,6 +174,10 @@ header h1 a
 	flex-direction: column;
 	margin-top: 9.375rem;
 }
+#presentation h2
+{
+	align-self: center;
+}
 #presentation article
 {
 	display: flex;
